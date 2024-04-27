@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tenor+Sans&display=swap');
+
+:root{
+    --primary: #ff4854;
+    --secondary: #fa9aad;
+    --white: #ffffff;
+    --grey: #f8f9fd;
+    --darkgrey: #474747;
+    
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-image: linear-gradient(to right top, #e23c47, #ff4854, #fa9aad);
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link{
+    color: var(--white) !important;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.logo{
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+#username{
+    color: var(--white) !important;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.navbar-toggler{
+    color: var(--white);
+    border: var(--white) !important;
+}
+
+
+/* hero */
+
+#heroContainer{
+    margin-top: 100px;
+}
+
+.card img{
+    width: 100% !important;
+    height: 300px !important;
+}
+
+.btn-primary{
+    background-color: var(--primary) !important;
+    border: none !important;
+    outline: none !important;
+}
+

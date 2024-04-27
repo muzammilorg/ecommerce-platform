@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tenor+Sans&display=swap');
+
+:root{
+    --primary: #ff4854;
+    --secondary: #fa9aad;
+    --white: #ffffff;
+    --grey: #f8f9fd;
+    --darkgrey: #474747;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey);
+}
+
+.container{
+    border-radius: 30px; 
+    margin-top: 10%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.09);
+}
+
+#signCard{
+    border-radius: 0px 20px 20px 0px;
+    height: 100%;
+    width: 50%;
+    padding: 25px;
+    background-color: var(--white);
+}
+
+#signCard h2{
+    text-align: center;
+    font-size: 18px;
+    color: var(--darkgrey);
+}
+
+.input{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input label{
+    color: var(--darkgrey);
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.input input{
+    margin-top: 4px;
+    margin-bottom: 8px;
+    width: 230px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: var(--grey);
+}
+
+#signCard button{
+    margin-top: 10px;
+    width: 230px;
+    height: 33px;
+    color: var(--white);
+    font-weight: 600;
+    outline: none;
+    border: none;
+    background: rgb(255,65,76);
+    background: linear-gradient(153deg, rgba(255,65,76,1) 0%, rgba(255,68,133,1) 100%);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+#signCard button:hover{
+    outline: none;
+    color: var(--primary);
+    font-weight: 600;
+    border: 2px solid var(--primary);
+    background: var(--white);
+}  
+
+#welcomeCard{
+    border-radius: 20px 0px 0px 20px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    background: rgb(255,65,76);
+    background: linear-gradient(153deg, rgba(255,65,76,1) 0%, rgba(255,68,133,1) 100%);
+}
+
+#welcomeCard h2{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px; 
+}
+
+#welcomeCard h3{
+    width: 60%;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+#custom-icon{
+    margin-left: 15px;
+    margin-bottom: 5px;
+    width: 80px;
+    height: 80px;
+    background-image: url('../assets/shopicon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}

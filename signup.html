@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup_style.css">
+
+    <title>Sign up</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="welcomeCard">
+            <icon id="custom-icon"></icon>
+            <h2>Shopicon</h2>
+            <h3>Your One-Stop Shop for All Things Fabulous - Welcome to the Ultimate Retail Haven!</h3>
+        </div>
+
+
+        <div id="signCard">
+            <h2>Registration</h2>
+            <div class="input">
+                
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" placeholder="Enter Your First Name" required>
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" placeholder="Enter Your Last Name" required>
+            
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter Username" required>
+        
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter Password" required>
+
+            <button onclick="submitData()">Sign Up</button>
+            </div>
+        </div> 
+
+    </div>
+
+
+    <script src="./signup_script.js"></script>
+</body>
+
+</html>
